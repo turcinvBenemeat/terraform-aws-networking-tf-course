@@ -1,4 +1,6 @@
 variable "vpc_config" {
+  description = "VPC configuration"
+
   type = object({
     cidr_block = string
     name       = string
@@ -11,6 +13,8 @@ variable "vpc_config" {
 }
 
 variable "subnet_config" {
+  description = "Subnet configuration"
+  
   type = map(object({
     cidr_block = string
     public     = optional(bool, false)
