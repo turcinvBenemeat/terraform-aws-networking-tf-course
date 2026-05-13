@@ -1,4 +1,4 @@
-# AWS Networking Module
+# terraform-aws-networking-tf-course
 
 A Terraform module that creates a VPC with public and private subnets, an internet gateway, and route table associations for public subnets.
 
